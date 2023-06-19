@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redstore|e-commercewebsitedesign</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+        </script>
+        <script src="index.js"></script>
+        
+</head>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="" width="125px">
+            </div>
+            <nave>
+                <ul>
+                    <li>
+                        <input type="text" placeholder="Search">
+                    </li>
+                </ul>
+            </nave>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">HOME </a>
+                    </li>
+                    <li>
+                        <a href="#scroll-to">PRODUCT</a>
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                    <li>
+                        <a href="">ACCOUNT</a>
+                    </li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" alt="" width="30px" height="30px">
+        </div>
+        <div class="row">
+
+            <div class="form">
+                <h1>Register at Red Store! </h1>
+                <form name="myForm" action="backend.php" onsubmit="return validateForm()" method="post">
+                    <div class="fill"><input type="text" placeholder="Name" name="fname"> </div>
+                    <div class="fill"><input type="number" placeholder="Age"> </div>
+                    <div class="fill"><input type="text" placeholder="Gender" id="gender"> </div>
+                    <div class="fill"><input type="number" placeholder="Phone No."> </div>
+                    <div class="fill"><input type="email" placeholder="E-mail Address"> </div>
+                    <div class="fill2" id="sbmt"> <input type="submit" value="Submit"></div>
+        
+                </form>
+            </div>
+
+            <div class="col-2" id="myDiv">
+                <h1>Give your workout <br>A New Style!</h1>
+                <p>
+                    sucess isn't always about geatness. It's about consistency.consistent<br>hard work gains sucess.
+                    greatness will come.
+                </p>
+                <a href="" class="btn">explore now &#8594;</a>
+                <div id="msgDiv"></div>
+            </div>
+            <div class="col-2">
+                <img src="images/image1.png" alt="" id="img1">
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- featured categories -->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="images/category-1.jpg" alt="">
+                <h3>lower</h3>
+            </div>
+
+
+            <div class="col-3">
+                <img src="images/category-2.jpg" alt="">
+                <h3>shoes</h3>
+            </div>
+            <div class="col-3">
+                <img src="images/category-3.jpg" alt="">
+                <h3>hoody</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- featured products -->
+<div class="small-container" id="scroll-to">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-8.jpg" alt="" id="inc">
+            <h4>Red Printed t-Shirt</h4>
+            <button>Zoom in</button>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$30</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-10.jpg" alt="">
+            <h4>Red Printed t-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$30</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-3.jpg" alt="">
+            <h4>Red Printed t-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$30</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-11.jpg" alt="">
+            <h4>Red Printed t-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$30</p>
+        </div>
+
+
+    </div>
+    <h2 class="title">Latest products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-5.jpg" alt="">
+            <h4>Red Printed t-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$30</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-2.jpg" alt="">
+            <h4>Red Printed t-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$30</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-7.jpg" alt="">
+            <h4>Red Printed t-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$30</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-8.jpg" alt="">
+            <h4>Red Printed t-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$30</p>
+        </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-9.jpg" alt="">
+            <h4>Red Printed t-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$30</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-10.jpg" alt="">
+            <h4>Red Printed t-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$30</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-11.jpg" alt="">
+            <h4>Red Printed t-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$30</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-12.jpg" alt="">
+            <h4>Red Printed t-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$30</p>
+        </div>
+
+
+    </div>
+</div>
+<!------- offer------>
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/exclusive.png" class="offer-img">
+            </div>
+            <div class="col-2">
+
+                <p>Exclusively Available on Redstore</p>
+                <h1>Smart Band</h1>
+                <small>
+
+                    The mi smart band 4 features a 39.9% larger than Mi band 3 AMOLED color full-touch display with
+                    adjustable brightness , so everything is clear as can be.
+                </small>
+                <a href="" class="btn">buy now &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- testimonial section -->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                <p>
+                    lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the
+                    industry standard dummy ever
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <img src="images/user-1.png" alt="">
+                <h3>sean parker</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                <p>
+                    lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the
+                    industry standard dummy ever
+                </p>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <img src="images/user-2.png" alt="">
+                <h3>sean parker</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                <p>
+                    lorem ipsum is simply dummy text of the printing and typesetting industry. lorem ipsum has been the
+                    industry standard dummy ever
+                <div class="rating">
+
+                    </p>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <img src="images/user-3.png" alt="">
+                <h3>sean parker</h3>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- brands -->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo-godrej.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-oppo.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-coca-cola.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-paypal.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-philips.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+
+                <h3>Download our app</h3>
+                <p>Download app for android andios mobile phone</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png" alt="">
+                    <img src="images/app-store.png" alt="">
+
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-white.png" alt="">
+                <p>Our purpose is to sustainablymake the pleasure and benifits of sports accessible to the many</p>
+
+            </div>
+            <div class="footer-col-4">
+                <h3>Useful links</h3>
+                <ul>
+                    <li>
+                        Coupons
+                    </li>
+                    <li>
+                        Blog post
+                    </li>
+                    <li>
+                        Return policy
+                    </li>
+                    <li>
+                        Join affiliate
+                    </li>
+                </ul>
+
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>
+
+                        Facebook
+                    </li>
+                    <li>
+                        Twitter
+                    </li>
+                    <li>
+                        Instagram
+                    </li>
+                    <li>
+                        Youtube
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023- NAMAN ARORA</p>
+    </div>
+</div>
+
+</body>
+
+</html>
